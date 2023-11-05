@@ -18,8 +18,8 @@ function createBoxes() {
     const box = document.createElement("div");
     box.classList.add("removal-class");
     box.style.margin = "5px";
-    box.style.width = `${i * 10}px`;
-    box.style.height = `${i * 10}px`;
+    box.style.width = `${i * 10 + 20}px`;
+    box.style.height = `${i * 10 + 20}px`;
     box.style.backgroundColor = getRandomHexColor();
     boxPlace.appendChild(box);
   }
